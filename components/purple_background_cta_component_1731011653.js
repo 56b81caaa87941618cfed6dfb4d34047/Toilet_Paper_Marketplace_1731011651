@@ -1,8 +1,3 @@
-<!-- 
-INSTRUCTION: Summary: The section has a blurred radial gradient background and a call-to-action (CTA) content block.
-INSTRUCTION: It is centered on the page and includes a gradient-based title, a subtitle, a paragraph of text, and a button with a gradient background.
--->
-
 <template>
   <section id="cta-section-container">
     <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-white">
@@ -48,6 +43,10 @@ INSTRUCTION: It is centered on the page and includes a gradient-based title, a s
             Get Started
             <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1 text-purple-500">-&gt;</span>
           </a>
+        </div>
+        <!-- Image Inclusion -->
+        <div class="flex justify-center mt-6">
+          <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Toilet_Paper_Marketplace_1731011651/main/images/002e3a253bd5421bb6747877ce6f459e.jpeg" alt="CTA Image" class="rounded-lg shadow-lg" />
         </div>
       </div>
     </div>
