@@ -8,6 +8,12 @@
         "div_id": ""
     },
     {
+        "role": "chat_acknowledge",
+        "content": "Okay, I\u2019m adding a picture of a giant robot.",
+        "timestamp": "11112024154105",
+        "message_id": "guest11112024154104"
+    },
+    {
         "role": "user",
         "content": "Add a picture of a giant robot",
         "timestamp": "11112024154104",
