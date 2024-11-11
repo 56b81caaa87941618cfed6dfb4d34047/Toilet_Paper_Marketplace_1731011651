@@ -8,6 +8,12 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Gallery section for featuring giant robot images\", \"checked\": true}, {\"feature\": \"Add a playful sound effect when a giant robot image is clicked\", \"checked\": false}, {\"feature\": \"Hover animations for giant robot images\", \"checked\": false}, {\"feature\": \"Add a caption or description for the giant robot image\", \"checked\": true}, {\"feature\": \"Option to share giant robot images on social media\", \"checked\": false}], \"input_token_count\": 266, \"output_token_count\": 105, \"time_taken\": \"0:00:01.822939\"}",
+        "timestamp": "11112024154913",
+        "message_id": "guest11112024154904"
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific location would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"Homepage\", \"option2\": \"Product detail page\"}, {\"question 2\": \"Do you have a specific size or dimension in mind for the picture of the giant robot?\", \"option1\": \"Large (full screen)\", \"option2\": \"Medium (thumbnail size)\"}], \"input_token_count\": 312, \"output_token_count\": 95, \"time_taken\": \"0:00:01.242101\"}",
         "timestamp": "11112024154909",
