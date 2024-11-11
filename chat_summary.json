@@ -8,6 +8,12 @@
         "div_id": ""
     },
     {
+        "role": "chat_ui_checklist",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a prominent image of a giant robot on the homepage\", \"checked\": true}, {\"feature\": \"Include an interactive gallery of giant robot images\", \"checked\": false}, {\"feature\": \"Add a 'Robot of the Month' section with a featured robot image\", \"checked\": false}, {\"feature\": \"Create a robots category for related products\", \"checked\": false}, {\"feature\": \"Provide an option to share robot images on social media\", \"checked\": false}], \"input_token_count\": 242, \"output_token_count\": 111, \"time_taken\": \"0:00:01.974268\"}",
+        "timestamp": "11112024154115",
+        "message_id": "guest11112024154104"
+    },
+    {
         "role": "chat_qna",
         "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"In the app's header\", \"option2\": \"On a specific product page\"}, {\"question 2\": \"What style of the giant robot image are you envisioning?\", \"option1\": \"Realistic artwork\", \"option2\": \"Cartoonish design\"}], \"input_token_count\": 288, \"output_token_count\": 90, \"time_taken\": \"0:00:03.959245\"}",
         "timestamp": "11112024154112",
