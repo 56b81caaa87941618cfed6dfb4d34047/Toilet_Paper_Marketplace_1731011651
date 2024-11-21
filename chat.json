@@ -1,82 +1,86 @@
 [
     {
-        "role": "makeinfinite",
-        "content": "Can you describe the project a bit more?",
-        "message_id": "project_init",
-        "timestamp": "1731011653",
-        "component_file_name": "",
-        "div_id": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Gallery section for featuring giant robot images\", \"checked\": true}, {\"feature\": \"Add a playful sound effect when a giant robot image is clicked\", \"checked\": false}, {\"feature\": \"Hover animations for giant robot images\", \"checked\": false}, {\"feature\": \"Add a caption or description for the giant robot image\", \"checked\": true}, {\"feature\": \"Option to share giant robot images on social media\", \"checked\": false}], \"input_token_count\": 266, \"output_token_count\": 105, \"time_taken\": \"0:00:01.822939\"}",
-        "message_id": "guest11112024154904",
-        "timestamp": "11112024154913",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific location would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"Homepage\", \"option2\": \"Product detail page\"}, {\"question 2\": \"Do you have a specific size or dimension in mind for the picture of the giant robot?\", \"option1\": \"Large (full screen)\", \"option2\": \"Medium (thumbnail size)\"}], \"input_token_count\": 312, \"output_token_count\": 95, \"time_taken\": \"0:00:01.242101\"}",
-        "message_id": "guest11112024154904",
-        "timestamp": "11112024154909",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
+        "id": "guest11112024154104",
+        "timestamp": "2024-11-11T15:41:04",
         "role": "user",
+        "source": "user",
         "content": "Add a picture of a giant robot",
-        "message_id": "guest11112024154904",
-        "timestamp": "11112024154905",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
     },
     {
-        "role": "chat_acknowledge",
-        "content": "Sure, I will add a picture of a giant robot.",
-        "message_id": "guest11112024154904",
-        "timestamp": "11112024154905",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_ui_checklist",
-        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a prominent image of a giant robot on the homepage\", \"checked\": true}, {\"feature\": \"Include an interactive gallery of giant robot images\", \"checked\": false}, {\"feature\": \"Add a 'Robot of the Month' section with a featured robot image\", \"checked\": false}, {\"feature\": \"Create a robots category for related products\", \"checked\": false}, {\"feature\": \"Provide an option to share robot images on social media\", \"checked\": false}], \"input_token_count\": 242, \"output_token_count\": 111, \"time_taken\": \"0:00:01.974268\"}",
-        "message_id": "guest11112024154104",
-        "timestamp": "11112024154115",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_qna",
-        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"In the app's header\", \"option2\": \"On a specific product page\"}, {\"question 2\": \"What style of the giant robot image are you envisioning?\", \"option1\": \"Realistic artwork\", \"option2\": \"Cartoonish design\"}], \"input_token_count\": 288, \"output_token_count\": 90, \"time_taken\": \"0:00:03.959245\"}",
-        "message_id": "guest11112024154104",
-        "timestamp": "11112024154112",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
-    },
-    {
-        "role": "chat_acknowledge",
+        "id": "guest11112024154104",
+        "timestamp": "2024-11-11T15:41:05",
+        "role": "assistant",
+        "source": "base_assistant",
         "content": "Okay, I\u2019m adding a picture of a giant robot.",
-        "message_id": "guest11112024154104",
-        "timestamp": "11112024154105",
-        "component_file_name": "",
-        "div_id": "",
-        "div_action": ""
+        "metadata": {}
     },
     {
+        "id": "guest11112024154104",
+        "timestamp": "2024-11-11T15:41:12",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"Where would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"In the app's header\", \"option2\": \"On a specific product page\"}, {\"question 2\": \"What style of the giant robot image are you envisioning?\", \"option1\": \"Realistic artwork\", \"option2\": \"Cartoonish design\"}], \"input_token_count\": 288, \"output_token_count\": 90, \"time_taken\": \"0:00:03.959245\"}",
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
+    },
+    {
+        "id": "guest11112024154104",
+        "timestamp": "2024-11-11T15:41:15",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Add a prominent image of a giant robot on the homepage\", \"checked\": true}, {\"feature\": \"Include an interactive gallery of giant robot images\", \"checked\": false}, {\"feature\": \"Add a 'Robot of the Month' section with a featured robot image\", \"checked\": false}, {\"feature\": \"Create a robots category for related products\", \"checked\": false}, {\"feature\": \"Provide an option to share robot images on social media\", \"checked\": false}], \"input_token_count\": 242, \"output_token_count\": 111, \"time_taken\": \"0:00:01.974268\"}",
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
+    },
+    {
+        "id": "guest11112024154904",
+        "timestamp": "2024-11-11T15:49:05",
         "role": "user",
+        "source": "user",
         "content": "Add a picture of a giant robot",
-        "message_id": "guest11112024154104",
-        "timestamp": "11112024154104",
-        "component_file_name": "purple_background_cta_component_1731011653",
-        "div_id": "",
-        "div_action": ""
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
+    },
+    {
+        "id": "guest11112024154904",
+        "timestamp": "2024-11-11T15:49:05",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Sure, I will add a picture of a giant robot.",
+        "metadata": {}
+    },
+    {
+        "id": "guest11112024154904",
+        "timestamp": "2024-11-11T15:49:09",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "{\"status\": \"success\", \"qna\": [{\"question 1\": \"What specific location would you like the picture of the giant robot to be placed in the app?\", \"option1\": \"Homepage\", \"option2\": \"Product detail page\"}, {\"question 2\": \"Do you have a specific size or dimension in mind for the picture of the giant robot?\", \"option1\": \"Large (full screen)\", \"option2\": \"Medium (thumbnail size)\"}], \"input_token_count\": 312, \"output_token_count\": 95, \"time_taken\": \"0:00:01.242101\"}",
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
+    },
+    {
+        "id": "guest11112024154904",
+        "timestamp": "2024-11-11T15:49:13",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "{\"status\": \"success\", \"ui_elements_checklist\": [{\"feature\": \"Gallery section for featuring giant robot images\", \"checked\": true}, {\"feature\": \"Add a playful sound effect when a giant robot image is clicked\", \"checked\": false}, {\"feature\": \"Hover animations for giant robot images\", \"checked\": false}, {\"feature\": \"Add a caption or description for the giant robot image\", \"checked\": true}, {\"feature\": \"Option to share giant robot images on social media\", \"checked\": false}], \"input_token_count\": 266, \"output_token_count\": 105, \"time_taken\": \"0:00:01.822939\"}",
+        "metadata": {
+            "component_id": "purple_background_cta_component_1731011653"
+        }
+    },
+    {
+        "id": "project_init",
+        "timestamp": "2024-11-07T20:34:13",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Can you describe the project a bit more?",
+        "metadata": {}
     }
 ]
