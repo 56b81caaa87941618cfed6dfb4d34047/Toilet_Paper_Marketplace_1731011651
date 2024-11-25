@@ -1,7 +1,7 @@
 <template>
   <section id="cta-section-container">
     <div id="section-container" class="max-w-6xl mx-auto px-4 sm:px-6 bg-transparent">
-      <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-gradient-to-br from-pink-400/30 to-purple-600/30 backdrop-blur-md shadow-lg">
+      <div id="content-container" class="relative px-8 py-12 md:py-20 rounded-3xl overflow-hidden bg-gradient-to-br from-pink-400/30 to-purple-600/30 backdrop-filter backdrop-blur-lg shadow-lg">
 
         <!-- Radial gradient -->
         <div id="radial-gradient" class="absolute flex items-center justify-center top-0 -translate-y-1/2 left-1/2 -translate-x-1/2 pointer-events-none -z-10 w-1/2 aspect-square" aria-hidden="true">
@@ -30,7 +30,7 @@
             </div>
           </div>
           <div class="flex" id="content-title-container">
-            <h2 id="content-title" class="flex-1 h2 text-4xl font-bold pb-4 text-white">
+            <h2 id="content-title" class="flex-1 h2 text-5xl font-bold pb-4 text-white">
               Explore the Galaxy of Softness
             </h2>
           </div>
@@ -39,14 +39,15 @@
               Embark on a journey through our celestial collection of toilet paper. From star-soft to planet-friendly options, we've got your intergalactic bathroom needs covered.
             </p>
           </div>
-          <a id="content-cta-button" href="#0" class="btn transition duration-300 ease-in-out group text-purple-900 bg-gradient-to-r from-pink-300 to-purple-300 hover:from-pink-400 hover:to-purple-400 rounded-full px-6 py-3 shadow-lg">
+          <a id="content-cta-button" href="#0" class="btn transition duration-300 ease-in-out group text-purple-900 bg-gradient-to-r from-pink-300 to-purple-300 hover:from-pink-400 hover:to-purple-400 rounded-full px-8 py-4 shadow-lg text-lg font-semibold">
             Launch Your Journey
-            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-0.5 transition-transform duration-300 ease-in-out ml-2 text-purple-700">→</span>
+            <span id="content-cta-arrow" class="tracking-normal group-hover:translate-x-1 transition-transform duration-300 ease-in-out ml-2 text-purple-700">→</span>
           </a>
+        </div>
         </div>
         <!-- Image Inclusion -->
         <div class="flex justify-center mt-10">
-          <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Toilet_Paper_Marketplace_1731011651/main/images/002e3a253bd5421bb6747877ce6f459e.jpeg" alt="Cosmic Toilet Paper" class="rounded-2xl shadow-lg border-4 border-pink-300/50 max-w-md" />
+          <img src="https://raw.githubusercontent.com/56b81caaa87941618cfed6dfb4d34047/Toilet_Paper_Marketplace_1731011651/main/images/002e3a253bd5421bb6747877ce6f459e.jpeg" alt="Cosmic Toilet Paper" class="rounded-2xl shadow-lg border-4 border-pink-300/50 max-w-md hover:scale-105 transition-transform duration-300" />
         </div>
       </div>
     </div>
